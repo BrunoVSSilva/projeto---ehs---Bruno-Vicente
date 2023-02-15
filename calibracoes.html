@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./img/logo.png" id="muriaco_logo_mini" class="header__logo" alt="logo rdc">
+        <h2 class="header__titulo">Sistema de Gerenciamento de EHS</h2>
+    </header>
+    <!-- sidebar-->
+    <!--sb fim-->
+    <main class="conteudo">
+        <h1 class="progHeader__titulo">Consulta de Calibrações dos Produtos</h1>
+
+        <!-- Seleção de equipamento EHS-->
+        <div class="caixa_selecao">
+            <form action="" class="form_equipamento">
+                <label for="name" class="form_nome">Equipamento</label>
+                <select id="name" class="selecao_equipamento">
+                    <option value="none" class="option_style">Selecione um equipamento</option>
+                    <option value="Capacete" class="option_style">Capacete</option>
+                    <option value="Mascara" class="option_style">Mascara</option>
+                    <option value="Luvas" class="option_style">Luvas</option>
+                </select>
+            </form>
+        </div>
+        <table class="table_style">
+            <tr class="table_tr">
+                <td class="table_td"><p class="table_td_text">Laboratório</p></td>
+                <td class="table_td"><p class="table_td_text">Certificado</p></td>
+                <td class="table_td"><p class="table_td_text">Norma</p></td>
+                <td class="table_td"><p class="table_td_text">DtCalibracao</p></td>
+                <td class="table_td"><p class="table_td_text">Prazo Calibracao</p></td>
+                <td class="table_td"><p class="table_td_text">Prox. Calibracao</p></td>
+            </tr>
+            <tr class="table_tr">
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+            </tr>
+            <tr class="table_tr">
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+                <td class="table_result"></td>
+            </tr>
+        </table>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

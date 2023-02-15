@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./img/logo.png" id="muriaco_logo_mini" class="header__logo" alt="logo rdc">
+        <h2 class="header__titulo">Sistema de Gerenciamento de EHS</h2>
+    </header>
+    <!-- sidebar-->
+    <!--sb fim-->
+    <main class="conteudo">
+        <h1 class="progHeader__titulo">Consulta de Equipamentos</h1>
+
+        <!-- Seleção de equipamento EHS-->
+        <div class="caixa_selecao">
+            <form action="" class="form_equipamento">
+                <label for="name" class="form_nome">Equipamento</label>
+                <select id="" class="selecao_equipamento">
+                    <option value="none" class="option_style">Selecione um equipamento</option>
+                    <option value="Capacete" class="option_style">Capacete</option>
+                    <option value="Mascara" class="option_style">Mascara</option>
+                    <option value="Luvas" class="option_style">Luvas</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="divisao">
+            <div class="grid_form">
+
+
+                <label for="codigo">
+                    <p class="grid_form_name">Código:</p>
+                </label>
+                <input type="text" name="" id="codigo" class="grid_form_input input_10">
+
+                <label for="modelo">
+                    <p class="grid_form_name">modelo:</p>
+                </label>
+                <input type="text" name="" id="modelo" class="grid_form_input input_40">
+
+                <label for="serie">
+                    <p class="grid_form_name">Serie:</p>
+                </label>
+                <input type="text" name="" id="Serie" class="grid_form_input input_10">
+
+                <label for="tipo">
+                    <p class="grid_form_name">Tipo:</p>
+                </label>
+                <div class="grid_div_double_input"><input type="text" name="" id="tipo"
+                        class="grid_form_input input_10">
+                    <input type="text" name="" id="tipo" class="grid_form_input input_40">
+                </div>
+
+
+                <label for="fabricante">
+                    <p class="grid_form_name">Fabricante:</p>
+                </label>
+                <div class="grid_div_double_input">
+                    <input type="text" name="" id="fabricante" class="grid_form_input input_10">
+                    <input type="text" name="" id="fabricante" class="grid_form_input input_40">
+                </div>
+
+
+                <label for="capacidade">
+                    <p class="grid_form_name">Capacidades
+                </label>
+                <label for="capacidade">
+                    <p class="grid_form_name">Min:
+                </label>
+                <input type="text" name="" id="capacidade" class="grid_form_input input_20">
+                <label for="capacidade">
+                    <p class="grid_form_name">Max:
+                </label>
+                <input type="text" name="" id="capacidade" class="grid_form_input input_20">
+
+                <label for="escala">
+                    <p class="grid_form_name">Escala:</p>
+                </label>
+                <input type="text" name="" id="escala" class="grid_form_input input_10">
+
+                <label for="localizacao">
+                    <p class="grid_form_name">Localização:</p>
+                </label>
+                <div class="grid_div_double_input"><input type="text" name="" id="localizacao"
+                        class="grid_form_input input_10">
+                    <input type="text" name="" id="localizacao" class="grid_form_input input_40">
+                </div>
+
+
+                <label for="situacao">
+                    <p class="grid_form_name">Situação:</p>
+                </label>
+                <select name="" id="situacao" class="select_style">
+                    <option value="ativo">
+                        <p>ativo</p>
+                    </option>
+                    <option value="inativo">
+                        <p>inativo</p>
+                    </option>
+                </select>
+            </div>
+
+            <div class="img_box">
+
+            </div>
+
+        </div>
+
+        <div class="bottons">
+
+            <a href="./calibracoes.html" class="button_style">
+                <p>Calibração</p>
+            </a>
+
+            <a href="./calibracoes.html" class="button_style">
+                <p>Limpar</p>
+            </a>
+
+            <a href="./calibracoes.html" class="button_style">
+                <p>Cancelar</p>
+            </a>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

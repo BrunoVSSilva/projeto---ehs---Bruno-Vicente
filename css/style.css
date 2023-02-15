@@ -1,0 +1,312 @@
+.header {
+    height: 10vh;
+    background-image: linear-gradient(90deg, #c7dde5, #acdaeb, #99d9ed, #66d7f3, #00d4ff, #2596be);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px 5%;
+}
+
+.header__logo {
+    width: 10%;
+    text-align: center;
+}
+
+.header__titulo {
+    color: white;
+    font-size: 1.6em;
+    margin-right: 25%;
+}
+
+/* Conteudo <main> */
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 85vh;
+    padding-bottom: 30px;
+    background-image: url('../img/logo-opaca.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 80%;
+    background-attachment: fixed;
+}
+
+/* h1 título principal */
+
+.progHeader__titulo {
+    font-size: 1.9em;
+    margin-top: 1%;
+    font-weight: 500;
+    color: #2596be;
+    text-transform: capitalize;
+}
+
+/* Caixa de seleção de equipamento*/
+
+.caixa_selecao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2%;
+    padding-bottom: 1%;
+
+    height: 100px;
+    width: 40%;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #2596be;
+
+    background-color: #F4F4F5;
+
+}
+
+/* Seleção de equipamento*/
+
+.form_equipamento {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.selecao_equipamento {
+
+    height: 40px;
+    width: 70%;
+
+    border-radius: 5px;
+
+    border: #2596be 2px solid;
+    outline: none;
+
+    font-size: 0.8em;
+}
+
+.table_style {
+    margin-top: 40px;
+}
+
+
+
+.table_tr {
+    color: white;
+    background-color: #2596be;
+}
+
+
+.table_td {
+    width: 10%;
+    padding: 0.5%;
+}
+
+.table_td:first-child {
+    width: 40%;
+}
+
+.table_result {
+    height: 30px;
+    width: 10%;
+    padding: 0.5%;
+
+
+    background-color: #CAE0F7;
+}
+
+.divisao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: 95%;
+}
+
+.grid_form {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+
+}
+
+.grid_form_name {
+    color: #2596be;
+    font-weight: 700;
+}
+
+.grid_form_input {
+    padding-left: 1%;
+
+    background-color: #DBDBD1;
+    height: 35px;
+
+    font-size: 1.4rem;
+
+    border: 2px solid #2596be;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input_10 {
+    width: 10%;
+}
+
+.input_20 {
+    width: 20%;
+}
+
+.input_30 {
+    width: 30%;
+}
+
+.input_40 {
+    width: 40%;
+}
+
+.input_50 {
+    width: 50%;
+}
+
+.input_60 {
+    width: 60%;
+}
+
+.input_70 {
+    width: 70%;
+}
+
+.input_80 {
+    width: 80%;
+}
+
+.input_90 {
+    width: 90%;
+}
+
+.input_100 {
+    width: 100%;
+}
+
+.bottons {
+    display: flex;
+    justify-content: end;
+    gap: 2%;
+
+    margin-right: 50%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+.select_style {
+
+    background-color: #DBDBD1;
+    color: #2596be;
+    font-size: 1.4rem;
+
+    width: 15%;
+}
+
+.button_style {
+    all: none;
+    text-decoration: none;
+
+    padding: 0.4%;
+    border-radius: 5px;
+
+    color: white;
+    background-color: black;
+    opacity: 60%;
+
+    cursor: pointer;
+}
+
+.img_box {
+
+    width: 250px;
+    height: 250px;
+
+    background-color: white;
+    border: 2px #2596be dashed;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 470px) {
+    .header {
+        height: 15vh;
+    }
+
+    .caixa_selecao {
+        width: 320px;
+    }
+
+    .selecao_equipamento {
+
+        height: 40px;
+        width: 250px;
+
+        border-radius: 5px;
+
+        border: #2596be 2px solid;
+        outline: none;
+
+        font-size: 0.8em;
+    }
+
+    .table_td_text {
+        font-size: 0.8em;
+    }
+
+    .grid_form {
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .grid_form_input {
+        height: 20px;
+    }
+
+    .img_box {
+
+        width: 200px;
+        height: 250px;
+    
+    }
+
+    .input_10 {
+        width: 30%;
+    }
+    
+    .input_20 {
+        width: 40%;
+    }
+        
+    .input_40 {
+        width: 60%;
+    }
+
+    .select_style {
+
+        background-color: #DBDBD1;
+        color: #2596be;
+        font-size: 1.0rem;
+    
+        height: 20px;
+        width: 30%;
+    }
+
+}
